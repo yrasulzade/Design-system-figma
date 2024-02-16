@@ -1,0 +1,41 @@
+{
+  "source": [
+    "tokens/hds-token-transformer-new.json"
+  ],
+  "platforms": {
+    "android": {
+      "buildPath": "../designsystem/src/main/res/values/",
+      "transformGroup": "android",
+      "files": [
+        {
+          "destination": "dimens.xml",
+          "format": "android/spacing",
+          "filter": {
+            "type": "spacing"
+          }
+        },
+        {
+          "destination": "size.xml",
+          "format": "android/spacing",
+          "filter": {
+            "type": "sizing"
+          }
+        },
+        {
+          "destination": "fonts.xml",
+          "format": "android/font",
+          "filter": {
+            "type": "typography"
+          }
+        },
+        {
+          "destination": "colors.xml",
+          "format": "android/color",
+          "filter": {
+            "type": "color"
+          }
+        }
+      ]
+    }
+  }
+}
